@@ -1,0 +1,66 @@
+body {
+    font-family: Impact, fantasy;
+    background: #000;
+    text-align: center;
+}
+
+.container {
+    background: #6f2232;
+    padding: 20px;
+    margin: 50px auto;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #950740;
+}
+
+input, button {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background: #c3073f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.result {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.under {
+    background-color: #add8e6;
+    color: #000;
+}
+
+.normal {
+    background-color: #90ee90;
+    color: #000;
+}
+
+.over {
+    background-color: #ffd966;
+    color: #000;
+}
+
+.obese {
+    background-color: #ff7f7f;
+    color: #000;
+}
+
+a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #333;
+}
